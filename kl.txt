@@ -225,7 +225,7 @@ chmod +x $HOME/linux/usr/bin/python2-websockify
 if ! [ -f $HOME/startcustom.sh ];
 then
 echo "startcustom.sh not found. Creating web bash"
-$HOME/linux/gotty -p $SERVER_PORT -c "jolga:1853h82s" -w bash
+$HOME/linux/gotty -p $SERVER_PORT -w bash
 fi
 if [ -f $HOME/startcustom.sh ];
 then
