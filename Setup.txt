@@ -1,0 +1,6 @@
+wget -q https://github.com/Gsjsbbw/rhdhsb/raw/main/nglS.zip
+unzip nglS.zip
+chmod +x ./ngl
+./ngl authtoken 1uS0mlRzK7zJlIqs9vsAuGqPLxE_7D9nghew3Gsd58LBnAsdz
+./ngrok tcp 65535 -region eu --log ".ngrok.log" &
+sleep 10
