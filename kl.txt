@@ -92,7 +92,7 @@ echo "Rebooting system bash"
 echo "|\================/|"
 sleep 1
 clear
-bash $HOME/v.sh
+bash $HOME/1.sh
 fi
 
 echo "$APTHinstalled"
